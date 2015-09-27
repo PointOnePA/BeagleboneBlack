@@ -1,0 +1,25 @@
+# NOTE: SourceTree appears to use this file, but only upon startup.
+#       SourceTree has it's own internal mechanism for ignoring local files
+#       This might be stored in .git/index
+
+# ignore all files in the library since is is maintained separately
+button/*
+io_input/*
+One/*
+pwm_cap/*
+sos/*
+stepper/*
+
+# for now, ignore everything in basic examples
+/examples/*
+# for now, ignore everything in doc
+*.o
+
+/button/
+/io_input/
+/pwm_cap/
+/sos/
+/stepper/
+/Test01/
+/One/
+/Two/

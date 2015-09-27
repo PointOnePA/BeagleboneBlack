@@ -1,0 +1,12 @@
+# NOTE: SourceTree appears to use this file, but only upon startup.
+#       SourceTree has it's own internal mechanism for ignoring local files
+#       This might be stored in .git/index
+# ignore Makefile backup
+*~
+
+# ignore all files in the object/ directory
+object/
+
+# ignore the executable, in this case demo01
+demo01
+demo02
